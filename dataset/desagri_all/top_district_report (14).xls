@@ -1,0 +1,1361 @@
+<table border="2px" id="apyreport" class="table table-hover table-bordered text-center">
+      <thead>
+        <tr>
+          <th colspan="14"><p class=""><strong>Crop: <span id="selcrop">Arhar/Tur</span></strong></p></th>
+        </tr>
+        <tr>
+          <th rowspan="2">S.No.</th>
+          <th rowspan="2">State</th>
+          <th rowspan="2">District</th>
+                    <th rowspan="">2010 - 2011</th>
+                  <th rowspan="">2011 - 2012</th>
+                  <th rowspan="">2012 - 2013</th>
+                  <th rowspan="">2013 - 2014</th>
+                  <th rowspan="">2014 - 2015</th>
+                  <th rowspan="">2015 - 2016</th>
+                  <th rowspan="">2016 - 2017</th>
+                  <th rowspan="">2017 - 2018</th>
+                  <th rowspan="">2018 - 2019</th>
+                  <th rowspan="">2019 - 2020</th>
+                  <th rowspan="">2020 - 2021</th>
+        
+        </tr>
+        <tr>
+                    <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                  <th rowspan="">Production             (Tonnes)           </th>
+                </tr>
+      </thead>
+
+      <tbody>
+                    <tr>
+
+              <td>1</td>
+              <td>Gujarat</td>
+
+              <td>Bharuch</td>
+                            <td>
+                61,500
+              </td>
+                          <td>
+                40,900
+              </td>
+                          <td>
+                48,500
+              </td>
+                          <td>
+                49,236
+              </td>
+                          <td>
+                54,191
+              </td>
+                          <td>
+                84,107
+              </td>
+                          <td>
+                113,743
+              </td>
+                          <td>
+                75,991
+              </td>
+                          <td>
+                88,055
+              </td>
+                          <td>
+                64,183
+              </td>
+                          <td>
+                85,229
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>2</td>
+              <td>Gujarat</td>
+
+              <td>Vadodara</td>
+                            <td>
+                83,300
+              </td>
+                          <td>
+                88,300
+              </td>
+                          <td>
+                80,800
+              </td>
+                          <td>
+                53,681
+              </td>
+                          <td>
+                18,712
+              </td>
+                          <td>
+                34,501
+              </td>
+                          <td>
+                75,711
+              </td>
+                          <td>
+                51,656
+              </td>
+                          <td>
+                40,684
+              </td>
+                          <td>
+                29,440
+              </td>
+                          <td>
+                33,576
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>3</td>
+              <td>Gujarat</td>
+
+              <td>Chhotaudepur</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                38,458
+              </td>
+                          <td>
+                35,771
+              </td>
+                          <td>
+                41,736
+              </td>
+                          <td>
+                47,427
+              </td>
+                          <td>
+                32,331
+              </td>
+                          <td>
+                12,216
+              </td>
+                          <td>
+                19,256
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>4</td>
+              <td>Gujarat</td>
+
+              <td>Panch mahals</td>
+                            <td>
+                33,300
+              </td>
+                          <td>
+                31,300
+              </td>
+                          <td>
+                36,800
+              </td>
+                          <td>
+                33,659
+              </td>
+                          <td>
+                33,412
+              </td>
+                          <td>
+                27,467
+              </td>
+                          <td>
+                24,837
+              </td>
+                          <td>
+                30,704
+              </td>
+                          <td>
+                27,731
+              </td>
+                          <td>
+                20,483
+              </td>
+                          <td>
+                21,026
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>5</td>
+              <td>Gujarat</td>
+
+              <td>Junagadh</td>
+                            <td>
+                1,500
+              </td>
+                          <td>
+                900
+              </td>
+                          <td>
+                600
+              </td>
+                          <td>
+                43
+              </td>
+                          <td>
+                283
+              </td>
+                          <td>
+                897
+              </td>
+                          <td>
+                3,288
+              </td>
+                          <td>
+                1,275
+              </td>
+                          <td>
+                2,466
+              </td>
+                          <td>
+                2,246
+              </td>
+                          <td>
+                31,489
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>6</td>
+              <td>Gujarat</td>
+
+              <td>Narmada</td>
+                            <td>
+                15,700
+              </td>
+                          <td>
+                22,100
+              </td>
+                          <td>
+                20,900
+              </td>
+                          <td>
+                15,918
+              </td>
+                          <td>
+                25,923
+              </td>
+                          <td>
+                24,658
+              </td>
+                          <td>
+                19,902
+              </td>
+                          <td>
+                16,809
+              </td>
+                          <td>
+                21,611
+              </td>
+                          <td>
+                23,521
+              </td>
+                          <td>
+                25,046
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>7</td>
+              <td>Gujarat</td>
+
+              <td>Surat</td>
+                            <td>
+                15,700
+              </td>
+                          <td>
+                12,700
+              </td>
+                          <td>
+                17,200
+              </td>
+                          <td>
+                8,900
+              </td>
+                          <td>
+                10,738
+              </td>
+                          <td>
+                13,351
+              </td>
+                          <td>
+                16,538
+              </td>
+                          <td>
+                25,885
+              </td>
+                          <td>
+                20,491
+              </td>
+                          <td>
+                9,105
+              </td>
+                          <td>
+                9,140
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>8</td>
+              <td>Gujarat</td>
+
+              <td>Tapi</td>
+                            <td>
+                10,100
+              </td>
+                          <td>
+                9,500
+              </td>
+                          <td>
+                16,200
+              </td>
+                          <td>
+                9,203
+              </td>
+                          <td>
+                8,874
+              </td>
+                          <td>
+                9,819
+              </td>
+                          <td>
+                17,065
+              </td>
+                          <td>
+                11,550
+              </td>
+                          <td>
+                24,970
+              </td>
+                          <td>
+                9,469
+              </td>
+                          <td>
+                7,615
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>9</td>
+              <td>Gujarat</td>
+
+              <td>Dohad</td>
+                            <td>
+                16,900
+              </td>
+                          <td>
+                20,100
+              </td>
+                          <td>
+                18,900
+              </td>
+                          <td>
+                16,088
+              </td>
+                          <td>
+                12,797
+              </td>
+                          <td>
+                13,422
+              </td>
+                          <td>
+                17,020
+              </td>
+                          <td>
+                15,756
+              </td>
+                          <td>
+                6,771
+              </td>
+                          <td>
+                7,205
+              </td>
+                          <td>
+                8,301
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>10</td>
+              <td>Gujarat</td>
+
+              <td>Sabar kantha</td>
+                            <td>
+                13,100
+              </td>
+                          <td>
+                12,400
+              </td>
+                          <td>
+                11,300
+              </td>
+                          <td>
+                8,360
+              </td>
+                          <td>
+                6,253
+              </td>
+                          <td>
+                5,169
+              </td>
+                          <td>
+                12,628
+              </td>
+                          <td>
+                10,288
+              </td>
+                          <td>
+                5,202
+              </td>
+                          <td>
+                6,941
+              </td>
+                          <td>
+                8,368
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>11</td>
+              <td>Gujarat</td>
+
+              <td>Mahisagar</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                12,571
+              </td>
+                          <td>
+                8,548
+              </td>
+                          <td>
+                12,970
+              </td>
+                          <td>
+                8,124
+              </td>
+                          <td>
+                7,156
+              </td>
+                          <td>
+                2,251
+              </td>
+                          <td>
+                2,527
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>12</td>
+              <td>Gujarat</td>
+
+              <td>Valsad</td>
+                            <td>
+                3,300
+              </td>
+                          <td>
+                3,800
+              </td>
+                          <td>
+                5,300
+              </td>
+                          <td>
+                4,198
+              </td>
+                          <td>
+                3,649
+              </td>
+                          <td>
+                7,791
+              </td>
+                          <td>
+                5,770
+              </td>
+                          <td>
+                10,142
+              </td>
+                          <td>
+                4,114
+              </td>
+                          <td>
+                4,539
+              </td>
+                          <td>
+                5,018
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>13</td>
+              <td>Gujarat</td>
+
+              <td>Aravalli</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                5,636
+              </td>
+                          <td>
+                5,037
+              </td>
+                          <td>
+                7,661
+              </td>
+                          <td>
+                4,790
+              </td>
+                          <td>
+                5,584
+              </td>
+                          <td>
+                5,195
+              </td>
+                          <td>
+                4,199
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>14</td>
+              <td>Gujarat</td>
+
+              <td>Ahmadabad</td>
+                            <td>
+                1,100
+              </td>
+                          <td>
+                1,200
+              </td>
+                          <td>
+                900
+              </td>
+                          <td>
+                770
+              </td>
+                          <td>
+                763
+              </td>
+                          <td>
+                1,535
+              </td>
+                          <td>
+                2,655
+              </td>
+                          <td>
+                2,266
+              </td>
+                          <td>
+                1,472
+              </td>
+                          <td>
+                413
+              </td>
+                          <td>
+                7,331
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>15</td>
+              <td>Gujarat</td>
+
+              <td>Amreli</td>
+                            <td>
+                700
+              </td>
+                          <td>
+                900
+              </td>
+                          <td>
+                800
+              </td>
+                          <td>
+                1,057
+              </td>
+                          <td>
+                1,333
+              </td>
+                          <td>
+                912
+              </td>
+                          <td>
+                5,856
+              </td>
+                          <td>
+                2,642
+              </td>
+                          <td>
+                2,454
+              </td>
+                          <td>
+                3,068
+              </td>
+                          <td>
+                2,666
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>16</td>
+              <td>Gujarat</td>
+
+              <td>Navsari</td>
+                            <td>
+                4,800
+              </td>
+                          <td>
+                900
+              </td>
+                          <td>
+                2,900
+              </td>
+                          <td>
+                1,369
+              </td>
+                          <td>
+                896
+              </td>
+                          <td>
+                1,622
+              </td>
+                          <td>
+                660
+              </td>
+                          <td>
+                1,095
+              </td>
+                          <td>
+                938
+              </td>
+                          <td>
+                525
+              </td>
+                          <td>
+                482
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>17</td>
+              <td>Gujarat</td>
+
+              <td>Jamnagar</td>
+                            <td>
+                300
+              </td>
+                          <td>
+                400
+              </td>
+                          <td>
+                400
+              </td>
+                          <td>
+                492
+              </td>
+                          <td>
+                816
+              </td>
+                          <td>
+                344
+              </td>
+                          <td>
+                3,368
+              </td>
+                          <td>
+                4,640
+              </td>
+                          <td>
+                1,097
+              </td>
+                          <td>
+                1,574
+              </td>
+                          <td>
+                2,062
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>18</td>
+              <td>Gujarat</td>
+
+              <td>Rajkot</td>
+                            <td>
+                1,000
+              </td>
+                          <td>
+                1,000
+              </td>
+                          <td>
+                800
+              </td>
+                          <td>
+                225
+              </td>
+                          <td>
+                432
+              </td>
+                          <td>
+                548
+              </td>
+                          <td>
+                3,799
+              </td>
+                          <td>
+                3,944
+              </td>
+                          <td>
+                4,540
+              </td>
+                          <td>
+                3,940
+              </td>
+                          <td>
+                4,515
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>19</td>
+              <td>Gujarat</td>
+
+              <td>Dang</td>
+                            <td>
+                1,200
+              </td>
+                          <td>
+                3,100
+              </td>
+                          <td>
+                1,800
+              </td>
+                          <td>
+                1,584
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                2,880
+              </td>
+                          <td>
+                2,656
+              </td>
+                          <td>
+                3,667
+              </td>
+                          <td>
+                3,687
+              </td>
+                          <td>
+                1,594
+              </td>
+                          <td>
+                3,259
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>20</td>
+              <td>Gujarat</td>
+
+              <td>Banas kantha</td>
+                            <td>
+                3,200
+              </td>
+                          <td>
+                2,500
+              </td>
+                          <td>
+                1,300
+              </td>
+                          <td>
+                1,700
+              </td>
+                          <td>
+                951
+              </td>
+                          <td>
+                878
+              </td>
+                          <td>
+                760
+              </td>
+                          <td>
+                2,476
+              </td>
+                          <td>
+                609
+              </td>
+                          <td>
+                482
+              </td>
+                          <td>
+                538
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>21</td>
+              <td>Gujarat</td>
+
+              <td>Kheda</td>
+                            <td>
+                2,800
+              </td>
+                          <td>
+                2,900
+              </td>
+                          <td>
+                2,100
+              </td>
+                          <td>
+                1,449
+              </td>
+                          <td>
+                713
+              </td>
+                          <td>
+                719
+              </td>
+                          <td>
+                844
+              </td>
+                          <td>
+                967
+              </td>
+                          <td>
+                710
+              </td>
+                          <td>
+                725
+              </td>
+                          <td>
+                815
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>22</td>
+              <td>Gujarat</td>
+
+              <td>Morbi</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                54
+              </td>
+                          <td>
+                563
+              </td>
+                          <td>
+                538
+              </td>
+                          <td>
+                926
+              </td>
+                          <td>
+                2,064
+              </td>
+                          <td>
+                129
+              </td>
+                          <td>
+                129
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>23</td>
+              <td>Gujarat</td>
+
+              <td>Bhavnagar</td>
+                            <td>
+                700
+              </td>
+                          <td>
+                600
+              </td>
+                          <td>
+                500
+              </td>
+                          <td>
+                360
+              </td>
+                          <td>
+                766
+              </td>
+                          <td>
+                343
+              </td>
+                          <td>
+                1,090
+              </td>
+                          <td>
+                1,637
+              </td>
+                          <td>
+                1,558
+              </td>
+                          <td>
+                814
+              </td>
+                          <td>
+                1,236
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>24</td>
+              <td>Gujarat</td>
+
+              <td>Anand</td>
+                            <td>
+                900
+              </td>
+                          <td>
+                800
+              </td>
+                          <td>
+                1,300
+              </td>
+                          <td>
+                378
+              </td>
+                          <td>
+                612
+              </td>
+                          <td>
+                467
+              </td>
+                          <td>
+                85
+              </td>
+                          <td>
+                92
+              </td>
+                          <td>
+                76
+              </td>
+                          <td>
+                35
+              </td>
+                          <td>
+                36
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>25</td>
+              <td>Gujarat</td>
+
+              <td>Gir somnath</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                89
+              </td>
+                          <td>
+                111
+              </td>
+                          <td>
+                887
+              </td>
+                          <td>
+                645
+              </td>
+                          <td>
+                436
+              </td>
+                          <td>
+                304
+              </td>
+                          <td>
+                714
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>26</td>
+              <td>Gujarat</td>
+
+              <td>Surendranagar</td>
+                            <td>
+                300
+              </td>
+                          <td>
+                100
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                4
+              </td>
+                          <td>
+                16
+              </td>
+                          <td>
+                7
+              </td>
+                          <td>
+                761
+              </td>
+                          <td>
+                309
+              </td>
+                          <td>
+                45
+              </td>
+                          <td>
+                66
+              </td>
+                          <td>
+                859
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>27</td>
+              <td>Gujarat</td>
+
+              <td>Patan</td>
+                            <td>
+                600
+              </td>
+                          <td>
+                500
+              </td>
+                          <td>
+                500
+              </td>
+                          <td>
+                4
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                58
+              </td>
+                          <td>
+                722
+              </td>
+                          <td>
+                212
+              </td>
+                          <td>
+                51
+              </td>
+                          <td>
+                51
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>28</td>
+              <td>Gujarat</td>
+
+              <td>Gandhinagar</td>
+                            <td>
+                500
+              </td>
+                          <td>
+                500
+              </td>
+                          <td>
+                300
+              </td>
+                          <td>
+                283
+              </td>
+                          <td>
+                315
+              </td>
+                          <td>
+                332
+              </td>
+                          <td>
+                454
+              </td>
+                          <td>
+                268
+              </td>
+                          <td>
+                278
+              </td>
+                          <td>
+                61
+              </td>
+                          <td>
+                21
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>29</td>
+              <td>Gujarat</td>
+
+              <td>Kachchh</td>
+                            <td>
+                100
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                375
+              </td>
+                          <td>
+                99
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                50
+              </td>
+                          <td>
+                6
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>30</td>
+              <td>Gujarat</td>
+
+              <td>Mahesana</td>
+                            <td>
+                200
+              </td>
+                          <td>
+                100
+              </td>
+                          <td>
+                100
+              </td>
+                          <td>
+                2
+              </td>
+                          <td>
+                38
+              </td>
+                          <td>
+                36
+              </td>
+                          <td>
+                251
+              </td>
+                          <td>
+                180
+              </td>
+                          <td>
+                104
+              </td>
+                          <td>
+                20
+              </td>
+                          <td>
+                109
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>31</td>
+              <td>Gujarat</td>
+
+              <td>Botad</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                28
+              </td>
+                          <td>
+                12
+              </td>
+                          <td>
+                27
+              </td>
+                          <td>
+                4
+              </td>
+                          <td>
+                165
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>32</td>
+              <td>Gujarat</td>
+
+              <td>Porbandar</td>
+                            <td>
+                100
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                11
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                28
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                40
+              </td>
+                          <td>
+                24
+              </td>
+                        </tr>
+                        <tr>
+
+              <td>33</td>
+              <td>Gujarat</td>
+
+              <td>Devbhumi dwarka</td>
+                            <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                86
+              </td>
+                          <td>
+                81
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                          <td>
+                
+              </td>
+                        </tr>
+            
+      </tbody>
+    </table>

@@ -1,111 +1,105 @@
-# shell-ai-hackathon-2023
+# Shell AI Hackathon 2023
 
-Biomass forecasting and supply chain optimization for the Shell.ai hackathon 2023
+**Biomass Forecasting and Supply Chain Optimization for the Shell.ai Hackathon 2023**
 
+## Getting Started
 
-## Getting started
+To get started, make sure you have Python 3.10 installed and follow these steps:
 
-Install dependencies ( using python 3.10)
+1. Install dependencies:
 
-```
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-notebook kernel needs to be set to the right environment
+2. Set the notebook kernel to the right environment.
 
 ## Forecasting Methodology
 
-```
-notebooks/generate_forecast.ipynb 
-```
+### Generate Forecast
 
+You can find the code for generating the biomass forecast in the [**generate_forecast.ipynb**](notebooks/generate_forecast.ipynb) notebook.
 
-### Biomass dataset clean up
+#### Biomass Dataset Cleanup
 
-Fill in some duplicated values that happenened before the 2014 census
+To ensure data accuracy, the notebook addresses and fills in duplicated values that occurred before the 2014 census.
 
-### Cluster indexes  
+#### Cluster Indexes
 
-Clusters are priomarily based on the district name, then correlations are checked for each index within each district. Each index is assigned to the district with the highest pearson correlation.
+The clustering process is primarily based on district names, followed by checking correlations for each index within each district. Each index is assigned to the district with the highest Pearson correlation.
 
-### Create table for crop production  
+#### Create Table for Crop Production
 
-A table containing multiple crop production for each district is created based on [desagri data](https://data.desagri.gov.in/website/crops-report-major-contributing-district-web).
+A table containing crop production data for each district is created based on [Desagri data](https://data.desagri.gov.in/website/crops-report-major-contributing-district-web). Missing values before 2014 are filled in using production conservation ratios.
 
-Some missing values before 2014 have to be filled in due to district merging/ splitting. This is done based on the production conservation before and after the census, using simple ratios for group of districts.
+#### Add Elevation Map and Crop Land Map
 
-### Add Elevation map and crop land map
+Crop land data from [EarthStat](http://www.earthstat.org/) and elevation data from NASA Earth Observation [NEO](https://neo.gsfc.nasa.gov/dataset_index.php#energy) are integrated into the analysis.
 
-Crop land data from [eartstat](http://www.earthstat.org/) and elevation from Nasa Earth observation [NEO](https://neo.gsfc.nasa.gov/dataset_index.php#energy)
+#### Train Model
 
-### Train model
+The model pipeline consists of a MaxAbsScaler and an ExtraTreeRegressor. Cross-validation is performed for each year based on all other years, with the following results:
 
-The pipeline consists of a MaxAbsScaler and an ExtraTreeRegressor, cross validation is performed for each year based on all other years.
+| Year | Test MAE |
+| ---- | -------- |
+| 2010 | 22.6     |
+| 2011 | 19.4     |
+| 2012 | 27.7     |
+| 2013 | 32.9     |
+| 2014 | 24.9     |
+| 2015 | 20.8     |
+| 2016 | 29.1     |
+| 2017 | 29.6     |
+| Avg  | 25.9     |
 
+#### Inference on 2018 and 2019
 
+The model, trained on historical data, is used for inference on 2018 and 2019, and the forecast is stored for further use in the optimization step.
 
-| year | test_mae |
-|------|----------|
-| 2010 | 22.6 |
-|2011|19.4|
-|2012 |27.7|
-|2013 | 32.9|
-|2014 |24.9|
-|2015 | 20.8|
-|2016 |29.1|
-|2017 | 29. 6|
-| average | 25.9 |
+![Biomass Forecast](./docs/forecast_img.PNG)
 
+## Optimization Methodology
 
-### Inference on 2018 and 2019
+### Generate Optimized Locations
 
-The model is trained on all historical data and used for inference on 2018 and 2019, the forecast is stored for further use in the optimization step
+The code for generating optimized locations can be found in the [**generate_optimized_locations.ipynb**](notebooks/generate_optimized_locations.ipynb) notebook.
 
-![forecast](./docs/forecast_img.PNG)
+#### Refineries Location
 
-## Optimization methodology
+The number of refineries is defined to collect 80% of biomass production (a problem constraint). Initial refinery positions are set at the center of the main biomass clusters.
 
-```
-/notebooks/generate_optimized_locations.ipynb 
-```
+#### Initial Depot Location by Subtraction
 
-### Refineries location
+The process includes the following steps, repeated until a maximum iteration is reached:
 
-Refineries number is defined in order to be able to collect 80% of the biomass production ( problem constraint).
+1. Start with around 60 depots spread in regions with high biomass (>200) in a random manner.
 
-Initial refineries positions are on the center of the main biomass clusters
+2. Calculate the flux to refineries using linear optimization.
 
-### Initial depot location by substraction
+3. Remove the depot that is the most underutilized.
 
-Do until max iteration is reached :
-    
-    Starting with around 60 depots spread on regions with high biomass ( >200 ) in a random manner
+4. Stop if constraints cannot be satisfied when calculating flux from depots to refineries.
 
-    1.Calculate the flux to refineries using linear optimization 
+The final depot positions giving the best cost over all runs are extracted.
 
-    2.Remove depot that is the most under-utilized
+#### Fine-Tune Depot/Refineries Positions Using a Greedy Algorithm
 
-    3.Stop if constraints cannot be satisfied when calculating flux from depots to refineries
+For each depot + refinery index:
 
-Extract depot positions giving the best cost over all runs
+1. Calculate costs in multiple directions for an initial distance.
 
-### Fine tune depot / refineries position using a greedy algorithm
+2. Keep the new position if the cost is lower.
 
-    For each depot + refinery index:
+If the cost is not improved after a full loop, the distance is increased.
 
-        calculate cost in multiple directions for an initial distance
-        keep new position if the cost is lower
+#### Final Depot and Refineries Locations (Optimized on 2019)
 
-    if the cost is not improved after a full loop, the distance is increased
+![Optimized Locations](./docs/optimized_locations_img.PNG)
 
-### Final depot and refineries locations ( optimized on 2019)
+## Scoring on 2018 and 2019 for the Final Submission
 
-![optimized locations](./docs/optimized_locations_img.PNG)
+| Year | Forecast MAE | Optimization Cost | Score  |
+| ---- | ------------ | ------------------ | ------ |
+| 2018 | 24.39        | 44,150             | 83.49  |
+| 2019 | 30.69        | 26,786             | 83.84   |
 
-
-## Score on 2018 and 2019 for the final submission
-
-| year| forecast mae | optimization cost | score |
-|-----|--------------|-------------------|-------|
-|2018|24.39|44150|83.49|
-|2019|30.69|26786|83.7|

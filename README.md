@@ -103,3 +103,4 @@ If the cost is not improved after a full loop, the distance is increased.
 | 2018 | 24.39        | 44,150             | 83.49  |
 | 2019 | 30.69        | 26,786             | 83.84   |
 
+Note that the optimization cost on 2018 is high as the same infrastructure had to be used for both years, the final submission is optimized on 2019.

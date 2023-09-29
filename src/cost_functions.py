@@ -1,4 +1,4 @@
-# pylint: disable=C0103,C0114,C0116,R0914,R0913,R0911
+# pylint: disable=C0103,C0114,C0116,R0914,R0913,R0911,E0401
 import sys
 import pandas as pd
 import numpy as np

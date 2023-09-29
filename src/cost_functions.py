@@ -1,4 +1,7 @@
-# pylint: disable=C0103,C0114,C0116,R0914,R0913,R0911,E0401
+# pylint: disable=C0103,R0914,R0913,R0911,E0401
+"""
+A module for functions related to cost calculations
+"""
 import sys
 import pandas as pd
 import numpy as np
@@ -19,6 +22,9 @@ def get_cost(depot_index,
              pellet_mat,
              forecast,adjust,
              ignore_constraints=False):
+    """
+    Gets the cost for a given setup
+    """
     transport_biomass=np.sum(np.multiply(dist_mat[:,depot_index],biomass_mat))
     transport_pellet=np.sum(np.multiply(dist_mat[depot_index,:][:,raf_index],pellet_mat))
 
@@ -66,6 +72,9 @@ def get_cost(depot_index,
     return underutil_cost,transport_cost,total_cost
 
 def plot_network(df_biomass,df_forecast,depot_index,raf_index):
+    """
+    plots network
+    """
     df=df_biomass.copy()
     df["biomass"]=df_forecast
     for i in depot_index:
@@ -97,6 +106,9 @@ def create_submission_file(forecast_2018,
                            biomass_mat_2019,
                            pellet_mat_2018,
                            pellet_mat_2019):
+    """
+    Exports submission file for a given depot/ref configuration
+    """
     df=pd.DataFrame([],columns=["year","data_type","source_index","destination_index","value"])
 
     #forecast 2018
@@ -154,6 +166,9 @@ def create_submission_file(forecast_2018,
     return df
 
 def get_cost_from_lp(depot_index,raf_index,forecast,dist_mat):
+    """
+    Runs linear optimisation and gets the matrices
+    """
     model=of.create_biomass_mat_lp(depot_index,raf_index,forecast,dist_mat)
 
     biomass_mat,pellet_mat,adjust=of.get_matrices_from_lp(model,len(depot_index),len(raf_index))
@@ -161,6 +176,9 @@ def get_cost_from_lp(depot_index,raf_index,forecast,dist_mat):
     return costs
 
 def get_cost_from_lp_with_adjust(depot_index,raf_index,forecast,dist_mat):
+    """
+    Runs linear optimisation and gets the matrices, takes into account possible forecast adjustment
+    """
     model=of.create_biomass_mat_lp_with_adjust(depot_index,raf_index,forecast,dist_mat)
 
     biomass_mat,pellet_mat,adjust=of.get_matrices_from_lp(model,len(depot_index),len(raf_index))
